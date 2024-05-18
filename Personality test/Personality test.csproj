@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27BC36DD-FB19-41C3-B4E0-13F4CFE9CAB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Personality_test</RootNamespace>
+    <AssemblyName>Personality test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>puzzle.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainpage.Designer.cs">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page1.Designer.cs">
+      <DependentUpon>page1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page10.Designer.cs">
+      <DependentUpon>page10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page11.Designer.cs">
+      <DependentUpon>page11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page12.Designer.cs">
+      <DependentUpon>page12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page13.Designer.cs">
+      <DependentUpon>page13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page14.Designer.cs">
+      <DependentUpon>page14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page15.Designer.cs">
+      <DependentUpon>page15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page16.Designer.cs">
+      <DependentUpon>page16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page17.Designer.cs">
+      <DependentUpon>page17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page18.Designer.cs">
+      <DependentUpon>page18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page19.Designer.cs">
+      <DependentUpon>page19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page2.Designer.cs">
+      <DependentUpon>page2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page20.Designer.cs">
+      <DependentUpon>page20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page21.Designer.cs">
+      <DependentUpon>page21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page22.Designer.cs">
+      <DependentUpon>page22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page23.Designer.cs">
+      <DependentUpon>page23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page3.Designer.cs">
+      <DependentUpon>page3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page4.Designer.cs">
+      <DependentUpon>page4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page5.Designer.cs">
+      <DependentUpon>page5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page6.Designer.cs">
+      <DependentUpon>page6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page7.Designer.cs">
+      <DependentUpon>page7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page8.Designer.cs">
+      <DependentUpon>page8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page9.Designer.cs">
+      <DependentUpon>page9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="variable.cs" />
+    <EmbeddedResource Include="mainpage.resx">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page1.resx">
+      <DependentUpon>page1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page10.resx">
+      <DependentUpon>page10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page11.resx">
+      <DependentUpon>page11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page12.resx">
+      <DependentUpon>page12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page13.resx">
+      <DependentUpon>page13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page14.resx">
+      <DependentUpon>page14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page15.resx">
+      <DependentUpon>page15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page16.resx">
+      <DependentUpon>page16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page17.resx">
+      <DependentUpon>page17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page18.resx">
+      <DependentUpon>page18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page19.resx">
+      <DependentUpon>page19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page2.resx">
+      <DependentUpon>page2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page20.resx">
+      <DependentUpon>page20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page21.resx">
+      <DependentUpon>page21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page22.resx">
+      <DependentUpon>page22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page23.resx">
+      <DependentUpon>page23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page3.resx">
+      <DependentUpon>page3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page4.resx">
+      <DependentUpon>page4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page5.resx">
+      <DependentUpon>page5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page6.resx">
+      <DependentUpon>page6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page7.resx">
+      <DependentUpon>page7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page8.resx">
+      <DependentUpon>page8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page9.resx">
+      <DependentUpon>page9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="puzzle.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
